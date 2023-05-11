@@ -1,25 +1,13 @@
-// using CORE.Interfaces;
+using CORE.Interfaces;
 
-// namespace CORE.Services;
+namespace CORE.Services;
 
-<<<<<<< HEAD
-// public class UserService : Iservice<CORE.Entities.User>
-// {
-//     private readonly Iservices _iServices;
-
-//     public UserService(Iservices iServices)
-//     {
-//         _iServices = iServices;
-//     }
-// }
-=======
 public class UserService : Iservice<CORE.Entities.User>
 {
-    private readonly Iservice _iService;
+    private readonly Iservices _iServices;
 
-    public UserService(Iservice iService)
+    public UserService(Iservices iServices)
     {
-        _iService = iService;
+        _iServices = iServices;
     }
 }
->>>>>>> 789476d04897a7557e7beebf4bec531366f4a77d
