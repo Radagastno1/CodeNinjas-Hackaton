@@ -6,7 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using CORE.Entities;
 using Microsoft.Extensions.Logging;
 
-namespace INFRASTRUCTURE.Controller
+
+
+namespace MVC.Controllers;
+
+public class User
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -24,11 +28,6 @@ namespace INFRASTRUCTURE.Controller
         [HttpPost]
         public async Task<ActionResult<User>> CreateNewUser([FromBody] User user)
         {
-
-        }
-        [HttpPost]
-        public async Task<ActionResult<User>> UpdateUser([FromBody] User user)
-        {
             if (user == null)
             {
                 return BadRequest("User object is null.");
@@ -36,10 +35,10 @@ namespace INFRASTRUCTURE.Controller
 
             try
             {
-                // _dbContext.User.Add(user);
-                // await _dbContext.SaveChangesAsync();
+                dbContext.User.Add(user);
+                await _dbContext.SaveChangesAsync();
 
-                // return CreatedAtAction(nameof(CreateUser), new { id = user.UserId }, user);
+                return CreatedAtAction(nameof(CreateUser), new { id = user.UserId }, user);
             }
 
             catch (Exception ex)
@@ -51,15 +50,38 @@ namespace INFRASTRUCTURE.Controller
             }
 
         }
-        [HttpPost]
-        public async Task<ActionResult<User>> DeleteUser()
+        [HttpGet]
+        public async Task<ActionResult<List<User>>> GetUserTop10()
+        {
+            var user = await _dbContext.User.ToListAsync();
+
+            if (User == null)
+            {
+                return NotFound();
+            }
+
+            // return Ok(user.TakeLast(10)); Show top 10 fastest runner order by ascending
+        }
+
+        [HttpPut]
+        public async Task<ActionResult<User>> UpdateUser([FromBody] User user)
         {
 
-        }
-        //  public IActionResult<User> CreateNewUser([FromBody] User user)
-        // {
 
-        // }
+        }
+        [HttpDelete]
+        public async Task<IActionResult> DeleteUser(int userId)
+        {
+            var userToDelete = await _dbContext.User.FindAsync(userId);
+
+            _dbContextTranan.user.Remove(userToDelete);
+
+            await _dbContextTranan.SaveChangesAsync();
+
+            return NoContent();
+
+        }
+
 
     }
 }

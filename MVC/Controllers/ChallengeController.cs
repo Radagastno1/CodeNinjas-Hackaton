@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using MVC.Models;
 
 namespace MVC.Controllers;
-
 public class ChallengeController : Controller
 {
     private readonly ILogger<ChallengeController> _logger;

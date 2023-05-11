@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "x66lITUa11BBFxzEey6i2zM3pYSR83bejrVcCtGYOLq4SS1jcvKobJ88J6G3GsuqNt4oMtaLKhYiTtChCkgz1g==",
+  "dgSpecHash": "TCtqo65Y4FOHIu5bDG9wmULBx7mC1zun2u9mypjTYnNEI1BTEnanNCfnQXeGn/VvjT3PXKH6sftKyVtofvwz4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\angel\\Documents\\HACKATON\\codeninjas-hackaton\\mvc\\MVC.csproj",
+  "projectFilePath": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\MVC\\MVC.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\MVC\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
