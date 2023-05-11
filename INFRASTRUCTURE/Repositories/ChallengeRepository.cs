@@ -3,9 +3,9 @@ using CORE.Interfaces;
 
 namespace INFRASTRUCTURE.Repositories;
 
-public class UserRepository : IRepository<CORE.Entities.User>
+public class ChallengeRepository : IRepository<CORE.Entities.Challenge>
 {
-    public User Create(User obj)
+    public Challenge Create(Challenge obj)
     {
         throw new NotImplementedException();
     }
@@ -15,17 +15,17 @@ public class UserRepository : IRepository<CORE.Entities.User>
         throw new NotImplementedException();
     }
 
-    public List<User> Get()
+    public List<Challenge> Get()
     {
         throw new NotImplementedException();
     }
 
-    public User GetById(int id)
+    public Challenge GetById(int id)
     {
         throw new NotImplementedException();
     }
 
-    public User Update(User obj)
+    public Challenge Update(Challenge obj)
     {
         throw new NotImplementedException();
     }
