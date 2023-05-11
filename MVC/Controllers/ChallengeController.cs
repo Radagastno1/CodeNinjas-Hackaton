@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using MVC.Models;
 
 namespace MVC.Controllers;
-public class UserController : Controller
+public class ChallengeController : Controller
 {
-    private readonly ILogger<UserController> _logger;
+    private readonly ILogger<ChallengeController> _logger;
 
-    public UserController(ILogger<UserController> logger)
+    public ChallengeController(ILogger<ChallengeController> logger)
     {
         _logger = logger;
     }

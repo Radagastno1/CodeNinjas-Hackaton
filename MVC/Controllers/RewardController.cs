@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using MVC.Models;
 
 namespace MVC.Controllers;
-public class UserController : Controller
+public class RewardController : Controller
 {
-    private readonly ILogger<UserController> _logger;
+    private readonly ILogger<RewardController> _logger;
 
-    public UserController(ILogger<UserController> logger)
+    public RewardController(ILogger<RewardController> logger)
     {
         _logger = logger;
     }
