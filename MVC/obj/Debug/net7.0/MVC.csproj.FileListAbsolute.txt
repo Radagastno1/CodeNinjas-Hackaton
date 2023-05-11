@@ -32,3 +32,14 @@ C:\Users\angel\Documents\HACKATON\CodeNinjas-Hackaton\mvc\obj\Debug\net7.0\refin
 C:\Users\angel\Documents\HACKATON\CodeNinjas-Hackaton\mvc\obj\Debug\net7.0\MVC.pdb
 C:\Users\angel\Documents\HACKATON\CodeNinjas-Hackaton\mvc\obj\Debug\net7.0\MVC.genruntimeconfig.cache
 C:\Users\angel\Documents\HACKATON\CodeNinjas-Hackaton\mvc\obj\Debug\net7.0\ref\MVC.dll
+C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\obj\Debug\net7.0\MVC.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\obj\Debug\net7.0\MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\obj\Debug\net7.0\MVC.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\obj\Debug\net7.0\MVC.AssemblyInfo.cs
+C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\obj\Debug\net7.0\MVC.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\obj\Debug\net7.0\MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\obj\Debug\net7.0\MVC.RazorAssemblyInfo.cache
+C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\obj\Debug\net7.0\MVC.RazorAssemblyInfo.cs
+C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\obj\Debug\net7.0\MVC.dll
+C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\obj\Debug\net7.0\refint\MVC.dll
+C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\obj\Debug\net7.0\MVC.pdb
