@@ -1,5 +1,5 @@
-using CORE.Interfaces;
 using CORE.Entities;
+using CORE.Interfaces;
 
 namespace CORE.Services;
 
@@ -14,7 +14,7 @@ public class UserService : Iservice<CORE.Entities.User>
     {
         throw new NotImplementedException();
     }
-    
+
     public List<User> Get()
     {
         throw new NotImplementedException();
