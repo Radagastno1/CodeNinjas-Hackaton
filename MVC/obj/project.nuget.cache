@@ -5,10 +5,17 @@
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\MVC\\MVC.csproj",
 =======
-  "dgSpecHash": "7us1StK17vidX2086MLNfpW8NPEjP2YXy/I/6N7i1MNerscIl9dARBV/yBgZn8RfnsePbrl8ga+YKSrW9pSAlA==",
+  "dgSpecHash": "IwB39bRyAcM11G1GxOIBzGnUrhGl+Faj7BtEGJO/7/ngiplLxgCXDhUnBGDeMifQsho8PPcVtj63BwvfNOWW2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
->>>>>>> 43eda04328d7eee0a2af93cf85b4789efbc9245b
+  "projectFilePath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
+>>>>>>> 789476d04897a7557e7beebf4bec531366f4a77d
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

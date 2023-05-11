@@ -3,6 +3,23 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// builder.Services.AddDbContext<Core.Data.TrananDbContext>(
+//     options =>
+//         options.UseSqlite(
+//             "Data Source=INFRASTRUCTURE/Data/DbContext"
+//         )
+// );
+
+builder.Services.AddScoped<
+    CORE.Interfaces.Iservice<CORE.Entities.User>,CORE.Services.UserService
+>();
+// builder.Services.AddScoped<
+//     CORE.Interfaces.Iservice<CORE.Entities.Challenge>,CORE.Services.ChallengeService
+// >();
+// builder.Services.AddScoped<
+//     CORE.Interfaces.Iservice<CORE.Entities.Track>,CORE.Services.TrackService
+// >();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

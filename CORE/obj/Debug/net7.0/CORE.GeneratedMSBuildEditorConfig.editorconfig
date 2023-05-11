@@ -8,8 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CORE
-<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\
-=======
-build_property.ProjectDir = c:\Users\Zhinr\Documents\CodeNinjas-Hackaton\CORE\
->>>>>>> be4823a52f11e447d6addb8315c292bcd11f514d
