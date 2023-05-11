@@ -10,11 +10,16 @@ public class DbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<User>()
+            .HasMany(u => u.users)
+            .WithMany()
+            .UsingEntity(j => j.ToTable("UserFriends"));
 
-        modelBuilder.Entity<Movie>().HasData(new Movie
+        modelBuilder.Entity<User>().HasData(new Movie
         {
         });
     }
 
-    public DbSet<Movie> Movies { get; set; }
+    public DbSet<User> users { get; set; }
+    public DbSet<Track> tracks { get; set; }
 }
