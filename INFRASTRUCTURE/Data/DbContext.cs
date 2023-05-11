@@ -1,4 +1,5 @@
-using CORE.Entity;
+using CORE.Entities;
+using Microsoft.EntityFrameworkCore;
 #nullable disable
 
 namespace INFRASTRUCTURE.Data;
