@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "zLziFkNtU2Ov2TgNkuyIZkNGpu10tvXJXb6Zs6TF1J+kGeAME4JoY84S3usJO+jCgi3Tvfw/UZAzeQ0A7Aiwaw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\MVC\\MVC.csproj",
+=======
   "dgSpecHash": "IwB39bRyAcM11G1GxOIBzGnUrhGl+Faj7BtEGJO/7/ngiplLxgCXDhUnBGDeMifQsho8PPcVtj63BwvfNOWW2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
+>>>>>>> 789476d04897a7557e7beebf4bec531366f4a77d
   "expectedPackageFiles": [],
   "logs": [
     {
