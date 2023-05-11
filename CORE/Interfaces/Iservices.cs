@@ -1,6 +1,6 @@
 namespace CORE.interfaces;
 
-public interface Iservices<T>
+public interface Iservice<T>
 {
     public T add(T obj);
     public List<T> Get();
