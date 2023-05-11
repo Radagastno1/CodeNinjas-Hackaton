@@ -1,4 +1,4 @@
-namespace CORE.Entities
+namespace Name
 {
     public class Reward
     {

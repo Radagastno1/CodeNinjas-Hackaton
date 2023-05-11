@@ -12,9 +12,8 @@ public class ChallengeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Index(UserViewModel userViewModel)
     {
-        return View();
+        return View(userViewModel);
     }
-
 }
