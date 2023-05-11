@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {}
+    "C:\\Users\\angel\\Documents\\HACKATON\\codeninjas-hackaton\\CORE\\CORE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+    "C:\\Users\\angel\\Documents\\HACKATON\\codeninjas-hackaton\\CORE\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+        "projectUniqueName": "C:\\Users\\angel\\Documents\\HACKATON\\codeninjas-hackaton\\CORE\\CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+        "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\codeninjas-hackaton\\CORE\\CORE.csproj",
         "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\obj\\",
+        "outputPath": "C:\\Users\\angel\\Documents\\HACKATON\\codeninjas-hackaton\\CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",

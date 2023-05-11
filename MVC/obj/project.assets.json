@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
+      "projectUniqueName": "C:\\Users\\angel\\Documents\\HACKATON\\codeninjas-hackaton\\mvc\\MVC.csproj",
       "projectName": "MVC",
-      "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
+      "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\codeninjas-hackaton\\mvc\\MVC.csproj",
       "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\mvc\\obj\\",
+      "outputPath": "C:\\Users\\angel\\Documents\\HACKATON\\codeninjas-hackaton\\mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
-              "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
+            "C:\\Users\\angel\\Documents\\HACKATON\\codeninjas-hackaton\\CORE\\CORE.csproj": {
+              "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\codeninjas-hackaton\\CORE\\CORE.csproj"
             }
           }
         }
