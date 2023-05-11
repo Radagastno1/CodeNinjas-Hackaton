@@ -10,4 +10,5 @@ public class User
     public string password { get; set; }
     public string user_img { get; set; }
     public ICollection<User> users { get; set; }
+    public ICollection<Challenge> challenges { get; set; }
 }
