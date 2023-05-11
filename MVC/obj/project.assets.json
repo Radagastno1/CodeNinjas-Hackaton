@@ -27,19 +27,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Danie\\.nuget\\packages\\": {}
+    "C:\\Users\\DenThu\\.nuget\\packages\\": {}
+    
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\MVC\\MVC.csproj",
       "projectName": "MVC",
       "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\MVC\\MVC.csproj",
       "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\MVC\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
+      "projectName": "MVC",
+      "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
+      "packagesPath": "C:\\Users\\DenThu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\obj\\",
+>>>>>>> 789476d04897a7557e7beebf4bec531366f4a77d
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DenThu\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -51,8 +60,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
               "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
+=======
+            "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+              "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
+>>>>>>> 789476d04897a7557e7beebf4bec531366f4a77d
             }
           }
         }
@@ -85,8 +99,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
