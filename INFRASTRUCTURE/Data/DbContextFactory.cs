@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace INFRASTRUCTURE.Data
+namespace BioTranan.Core.Data
 {
     public class DbContext : IDesignTimeDbContextFactory<BioTrananDbContext>
     {
@@ -10,7 +10,7 @@ namespace INFRASTRUCTURE.Data
             var optionsBuilder = new DbContextOptionsBuilder<BioTrananDbContext>();
             optionsBuilder.UseSqlite("Data Source=7GO.db");
 
-            return new BioTrananDbContext(optionsBuilder.Options);
+            return new DbContext(optionsBuilder.Options);
         }
     }
 }

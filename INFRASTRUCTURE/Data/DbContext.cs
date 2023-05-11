@@ -1,3 +1,4 @@
+using CORE.Entity;
 #nullable disable
 
 namespace INFRASTRUCTURE.Data;
