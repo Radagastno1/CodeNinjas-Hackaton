@@ -16,9 +16,9 @@ public class TrackController : Controller
         _trackService = trackService;
     }
 
-    public IActionResult Go(int trackId)
+    public async Task<IActionResult> Go(int trackId)
     {
-        var track = _trackService.GetById(trackId);
+        var track = await _trackService.GetById(trackId);
         return View(track);
     }
 }
