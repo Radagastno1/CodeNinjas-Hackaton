@@ -21,9 +21,15 @@ namespace INFRASTRUCTURE.Controller
             _chellange = challenge;
         }
 
-        public IActionResult<Challenge> CreateNewChallenge([FromBody] Challenge challenge)
+        public async IActionResult<Challenge> CreateUserChallenge([FromBody] Challenge challenge)
         {
+            var createChallenge = await this._chellange.CreateChallenge(challenge);
 
+            if (!ModelState.IsValid)
+            {
+                throw new ArgumentNullException();
+                return BadRequest();
+            }
         }
     }
 }
