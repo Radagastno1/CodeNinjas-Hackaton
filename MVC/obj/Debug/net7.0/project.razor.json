@@ -18650,6 +18650,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\MVC\\Views\\Challenge\\Details.cshtml",
+      "TargetPath": "Views\\Challenge\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\MVC\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -18672,6 +18677,11 @@
     {
       "FilePath": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\MVC\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\MVC\\Views\\Track\\Go.cshtml",
+      "TargetPath": "Views\\Track\\Go.cshtml",
       "FileKind": "mvc"
     },
     {

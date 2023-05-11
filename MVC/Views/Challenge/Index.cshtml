@@ -1,26 +1,41 @@
+@model List<CORE.Entities.Challenge> //gör viewmodels, typ userViewModel.AvailableChallenges
 @{
-    ViewData["Title"] = "Utmaning";
+    ViewData["Title"] = "Utmaningar";
 }
+
 <body>
     <header>
-    
-    <div>
-        <h1>7-GO</h1>
-    </div>
 
-    <div>
-        <a href="">Kom igång</a>
-        <a href="">Logga in</a>
-        <a href="">Om 7-GO</a>
-    </div>
+        <div>
+            <h1>7-GO</h1>
+        </div>
 
-</header>
+        <div>
+            <a href="">Logga ut</a>
+            <a href="">Om 7-GO</a>
+        </div>
 
-<main>
+    </header>
 
-</main>
-<footer>
+    <main>
+        <h1>Upplåsta utmaningar i 7-härad</h1>
+        <ul>
+            @foreach (var challenge in Model)
+            {
+                <li>
+                    <p>Level: @challenge.challenge_level</p>
+                    <h2>@challenge.challenge_name</h2>
+                    <form method="post" action="/Track/Go">
+                        <input type="hidden" name="challengeId" value="@challenge.challengeId" />
+                        <button type="submit">Go!</button>
+                    </form>
+                </li>
+            }
+        </ul>
+    </main>
 
-</footer>
+    <footer>
+
+    </footer>
 
 </body>
