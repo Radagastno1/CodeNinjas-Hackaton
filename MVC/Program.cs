@@ -10,9 +10,9 @@ builder.Services.AddControllersWithViews();
 //         )
 // );
 
-builder.Services.AddScoped<
-    CORE.Interfaces.Iservice<CORE.Entities.User>,CORE.Services.UserService
->();
+// builder.Services.AddScoped<
+//     CORE.Interfaces.Iservice<CORE.Entities.User>,CORE.Services.UserService
+// >();
 // builder.Services.AddScoped<
 //     CORE.Interfaces.Iservice<CORE.Entities.Challenge>,CORE.Services.ChallengeService
 // >();
