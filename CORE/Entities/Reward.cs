@@ -1,11 +1,7 @@
 <<<<<<< HEAD
-#nullable disable
 =======
-namespace CORE.Entities
-{
-    public class Reward
-    {
->>>>>>> 371fa44ab07fada70d741bb26f01574581f57c9f
+#nullable disable
+>>>>>>> 85f87e71ab1afa47b7a6a3394f30bf9c540c49c3
 
 namespace CORE.Entities;
 public class Reward

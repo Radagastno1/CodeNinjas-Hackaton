@@ -8,24 +8,48 @@
     "net7.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\nyman\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
     "C:\\Users\\Danie\\.nuget\\packages\\": {}
+>>>>>>> 827a894982658ee51f7775203a0fda5ea5de4378
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+      "projectName": "CORE",
+      "projectPath": "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+      "packagesPath": "C:\\Users\\nyman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\CORE\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
       "projectName": "CORE",
       "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
       "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\obj\\",
+>>>>>>> 827a894982658ee51f7775203a0fda5ea5de4378
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
+<<<<<<< HEAD
+        "C:\\Users\\nyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
         "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 827a894982658ee51f7775203a0fda5ea5de4378
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +83,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+>>>>>>> 827a894982658ee51f7775203a0fda5ea5de4378
       }
     }
   }
