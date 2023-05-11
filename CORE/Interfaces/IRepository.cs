@@ -2,9 +2,9 @@ namespace CORE.Interfaces;
 
 public interface IRepository<T>
 {
-    public T Create(T obj);
-    public T Update(T obj);
-    public List<T> Get();
-    public T GetById(int id);
-    public void DeleteById(int id);
+    public Task<T> Create(T obj);
+    public Task<T> Update(T obj);
+    public Task<List<T>> Get();
+    public Task<T> GetById(int id);
+    public Task DeleteById(int id);
 }

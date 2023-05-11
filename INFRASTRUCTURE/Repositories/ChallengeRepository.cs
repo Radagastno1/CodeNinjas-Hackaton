@@ -1,25 +1,30 @@
 using CORE.Entities;
 using CORE.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace INFRASTRUCTURE.Repositories;
 
 public class ChallengeRepository : IRepository<CORE.Entities.Challenge>
 {
     private readonly INFRASTRUCTURE.Data.SevenGoContext _sevenGoContext;
+
     public ChallengeRepository(INFRASTRUCTURE.Data.SevenGoContext sevenGoContext)
     {
         _sevenGoContext = sevenGoContext;
     }
+
     public async Task<Challenge> Create(Challenge obj)
     {
-         try
+        try
         {
-            await _sevenGoContext .AddAsync(movie);
+            await _sevenGoContext.challenge.AddAsync(obj);
             await _sevenGoContext.SaveChangesAsync();
-            var recentlyAddedMovie = await _trananDbContext.Movies
-                .OrderByDescending(m => m.MovieId)
+
+            var recentlyAddedChallenge = await _sevenGoContext.challenge
+                .OrderByDescending(c => c.challengeId)
                 .FirstOrDefaultAsync();
-            return recentlyAddedMovie;
+
+            return recentlyAddedChallenge;
         }
         catch (Exception e)
         {
@@ -27,23 +32,90 @@ public class ChallengeRepository : IRepository<CORE.Entities.Challenge>
         }
     }
 
-    public void DeleteById(int id)
+    public async Task DeleteById(int id)
     {
-        throw new NotImplementedException();
+        try
+        {
+            var challengeToDelete = await _sevenGoContext.challenge.FindAsync(id);
+            var deletedChallenge = challengeToDelete;
+            if (challengeToDelete != null)
+            {
+                _sevenGoContext.challenge.Remove(challengeToDelete);
+                await _sevenGoContext.SaveChangesAsync();
+            }
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
     }
 
-    public List<Challenge> Get()
+    public async Task<List<Challenge>> Get()
     {
-        throw new NotImplementedException();
+        try
+        {
+            if (_sevenGoContext.challenge.Count() < 1)
+            {
+                return new List<Challenge>();
+            }
+            return await _sevenGoContext.challenge.ToListAsync();
+        }
+        catch (Exception e)
+        {
+            return null;
+        }
     }
 
-    public Challenge GetById(int id)
+    public async Task<Challenge> GetById(int id)
     {
-        throw new NotImplementedException();
+        try
+        {
+            if (_sevenGoContext.challenge.Count() < 1)
+            {
+                return new Challenge();
+            }
+            var challenge = await _sevenGoContext.challenge.FirstAsync();
+
+            return challenge;
+        }
+        catch (Exception e)
+        {
+            return null;
+        }
     }
 
-    public Challenge Update(Challenge obj)
+    public async Task<Challenge> Update(Challenge obj)
     {
-        throw new NotImplementedException();
+          try
+        {
+            var challengeToUpdate = await _sevenGoContext.challenge.FindAsync(obj.challengeId);
+            if (challengeToUpdate == null)
+            {
+                return null;
+            }
+            // movieToUpdate.Title = movie.Title ?? movieToUpdate.Title;
+            // movieToUpdate.Description = movie.Description ?? movieToUpdate.Description;
+            // movieToUpdate.AmountOfScreenings = movie.AmountOfScreenings;
+            // movieToUpdate.MaxScreenings = movie.MaxScreenings;
+            // movieToUpdate.Language = movie.Language ?? movieToUpdate.Language;
+            // movieToUpdate.ReleaseYear = movie.ReleaseYear;
+            // movieToUpdate.DurationMinutes = movie.DurationMinutes;
+            // movieToUpdate.ImageUrl = movie.ImageUrl ?? movieToUpdate.ImageUrl;
+            // movieToUpdate.Price = movie.Price;
+            // movieToUpdate.TrailerId = movie.TrailerId;
+
+            // movieToUpdate.Actors = movie.Actors;
+
+            // movieToUpdate.Directors = movie.Directors;
+
+            _sevenGoContext.challenge.Update(challengeToUpdate);
+
+            await _sevenGoContext.SaveChangesAsync();
+            return challengeToUpdate;
+        }
+        catch (Exception e)
+        {
+            return null;
+        }
     }
 }

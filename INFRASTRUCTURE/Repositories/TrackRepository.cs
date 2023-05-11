@@ -5,27 +5,27 @@ namespace INFRASTRUCTURE.Repositories;
 
 public class TrackRepository : IRepository<CORE.Entities.Track>
 {
-    public Track Create(Track obj)
+    public async Task<Track> Create(Track obj)
     {
         throw new NotImplementedException();
     }
 
-    public void DeleteById(int id)
+    public async Task DeleteById(int id)
     {
         throw new NotImplementedException();
     }
 
-    public List<Track> Get()
+    public async Task<List<Track>> Get()
     {
         throw new NotImplementedException();
     }
 
-    public Track GetById(int id)
+    public async Task<Track> GetById(int id)
     {
         throw new NotImplementedException();
     }
 
-    public Track Update(Track obj)
+    public async Task<Track> Update(Track obj)
     {
         throw new NotImplementedException();
     }

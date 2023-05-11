@@ -5,27 +5,27 @@ namespace INFRASTRUCTURE.Repositories;
 
 public class UserRepository : IRepository<CORE.Entities.User>
 {
-    public User Create(User obj)
+    public async Task<User> Create(User obj)
     {
         throw new NotImplementedException();
     }
 
-    public void DeleteById(int id)
+    public async Task DeleteById(int id)
     {
         throw new NotImplementedException();
     }
 
-    public List<User> Get()
+    public async Task<List<User>> Get()
     {
         throw new NotImplementedException();
     }
 
-    public User GetById(int id)
+    public async Task<User> GetById(int id)
     {
         throw new NotImplementedException();
     }
 
-    public User Update(User obj)
+    public async Task<User> Update(User obj)
     {
         throw new NotImplementedException();
     }

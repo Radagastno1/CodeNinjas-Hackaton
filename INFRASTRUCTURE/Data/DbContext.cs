@@ -32,4 +32,5 @@ public class SevenGoContext : DbContext
     public DbSet<User> users { get; set; }
     public DbSet<Track> tracks { get; set; }
     public DbSet<Contact> contacts { get; set; }
+    public DbSet<Challenge> challenge { get; set; }
 }
