@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8VJknFpSM1wJBBTP0Xaxt5g5/f5bMsBzvxpeuakHRI54jrHZqciujjHS2bCniY52QdM6hY1BsOnXXDHx/m65dQ==",
+  "dgSpecHash": "inhyRvHGPdBJPRiILBj4zM43pwROYupVOKuHqPwT2KbE35LJv4HvSDOw4usjAZQ+KSiATw2lrmDvOqImfySgEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\infrastructure\\INFRASTRUCTURE.csproj",
+  "projectFilePath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angel\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
