@@ -6,7 +6,7 @@ namespace INFRASTRUCTURE.Data;
 
 public class DbContext : DbContext
 {
-    public BioTrananDbContext(DbContextOptions options) : base(options) { }
+    public DbContext(DbContextOptions options) : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

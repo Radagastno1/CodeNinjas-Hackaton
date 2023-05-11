@@ -8905,32 +8905,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Zhinr\\.nuget\\packages\\": {}
+    "C:\\Users\\angel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
+      "projectUniqueName": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\infrastructure\\INFRASTRUCTURE.csproj",
       "projectName": "INFRASTRUCTURE",
-      "projectPath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
-      "packagesPath": "C:\\Users\\Zhinr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\obj\\",
+      "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\infrastructure\\INFRASTRUCTURE.csproj",
+      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Zhinr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
-              "projectPath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
+            "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+              "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
             }
           }
         }
@@ -8986,7 +8988,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -8995,7 +8997,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\infrastructure\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

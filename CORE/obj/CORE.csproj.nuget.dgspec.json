@@ -1,42 +1,27 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {}
+    "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+    "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+        "projectUniqueName": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
-        "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\obj\\",
+        "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-    "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {}
-  },
-  "projects": {
-    "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
-        "projectName": "CORE",
-        "projectPath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
-        "packagesPath": "C:\\Users\\Zhinr\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Zhinr\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 9bb3738493bf5a76076f7aa0c44789db30ad1754
+          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,11 +55,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
->>>>>>> 9bb3738493bf5a76076f7aa0c44789db30ad1754
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

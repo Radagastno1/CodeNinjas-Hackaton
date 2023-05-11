@@ -7,7 +7,7 @@ using CORE.Entities;
 using CORE.Services;
 using Microsoft.Extensions.Logging;
 
-namespace INFRASTRUCTURE.Controller
+namespace INFRASTRUCTURE.APIControllers
 {
     [ApiController]
     [Route("api/[controller]")]
