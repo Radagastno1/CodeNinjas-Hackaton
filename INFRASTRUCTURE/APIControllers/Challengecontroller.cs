@@ -49,5 +49,27 @@ namespace INFRASTRUCTURE.APIControllers
 
             return Ok();
         }
+
+        [HttpGet]
+        public async Task<ActionResult<List<Challenge>>> GetAllChallanges()
+        {
+            var challangeList = await this._challenge.ChallangesList();
+            if (challangeList == null)
+            {
+                return BadRequest();
+            }
+            return Ok();
+        }
+
+        [HttpGet("{int:id}")]
+        public async Task<ActionResult<Challenge>> GetChallengeById(int id)
+        {
+            var result = await this._challenge.ChallengeById(id);
+            if (result == null)
+            {
+                return NotFound();
+            }
+            return Ok();
+        }
     }
 }

@@ -1,9 +1,7 @@
-#nullable disable
-
-namespace CORE.Entities;
-
-public class Reward
+namespace Name
 {
-    public int rewardId { get; set; }
-    public string reward_some { get; set; }
+    public class Reward
+    {
+
+    }
 }
