@@ -1,8 +1,8 @@
-using CORE.Entities;
-using CORE.Services;
+using CORE.Interfaces;
+
 namespace CORE.Services;
 
-public class UserService : interfaces.Services<CORE.Entities.User>
+public class UserService : Iservice<CORE.Entities.User>
 {
     private readonly Iservices _iServices;
 

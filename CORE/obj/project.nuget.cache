@@ -1,21 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "G0lRCyjxqhFArH5jx0ZOgAcO/aVvv0cNIke0bfcabbQT0+inDN5h0F2Qj/HrZXawdOrOoiGN6uumSLMDay7DBA==",
+  "dgSpecHash": "FPUl47eQMLJZpNYCeXjSfrDVin+lioh3vv4FKhc7XjjeEKXwkEvt6tBwof5ifqshkyFL08UwAlepLSLaHtL5Og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
-=======
-  "dgSpecHash": "NPzFklMumPlDLn4XJWPSe2mSVHJE3aHtwH2DhkKYnBw1Z04DERghIfGRBfn1E6kbs8F9G+04n5a9ZcvG8Ymu6Q==",
-  "success": true,
-  "projectFilePath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
->>>>>>> 9bb3738493bf5a76076f7aa0c44789db30ad1754
+  "projectFilePath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
