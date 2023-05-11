@@ -16,5 +16,4 @@ public class ChallengeController : Controller
     {
         return View(userViewModel);
     }
-
 }
