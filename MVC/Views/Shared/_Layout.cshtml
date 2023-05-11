@@ -3,33 +3,76 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MVC</title>
+    <title>@ViewData["Title"] - 7H-GO</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     @* <link rel="stylesheet" href="~/MVC.styles.css" asp-append-version="true" /> *@
-    <link rel="stylesheet" href="/css/style.css" />
         <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/mobile.css" media="screen and (max-width: 780px)">
     <link rel="stylesheet" href="/css/tablet.css" media="screen and (max-width: 460px)">
 </head>
+  <body>
+    <header>
+      <div class="head-div">
+        <button type="submit" name="button" class="login-button">Logga in</button>
+      </div>
+    </header>
 
+    <main>
 
-<body>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - 7H-GO - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="logo-div">
+          <img
+            src="Assets/7H-GO"
+            height="92px"
+            width="272"
+            alt="7H GO"
+          />
         </div>
+
+          </div>
+
+        </div>
+
+        
+          </div>
+
+
+        <div id="Bottomdiv">
+          <span>Spring<a href="">Fort</a> </span>
+        </div>
+ 
+    </main>
+
+    <footer>
+
+      <div class="sverige-div">
+        Sverige
+      </div>
+
+      <div class="info-div">
+        
+        <div class="info">
+          <a href="https://about.google/?utm_source=google-SE&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+          <a href="https://ads.google.com/intl/en_se/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+          <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
+          <a href="https://www.google.com/search/howsearchworks/?fg=1">Reward info</a>
+        </div>
+
+        <div class="carbon">
+          <img class="Leaf" src="Assets/nedladdning.png" alt="Eniviroment" height="12" width="14">
+          <a href="https://sustainability.google/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=#home">Carbon neutral since 2007</a>
+        </div>
+
+        <div class="info">
+          <a href="https://policies.google.com/privacy?hl=en-SE&fg=1">Privacy</a>
+          <a href="https://policies.google.com/terms?hl=en-SE&fg=1">Terms</a>
+          <a href="">Settings</a>
+        </div>
+
+      </div>
+
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
+
+  </body>
 </html>
