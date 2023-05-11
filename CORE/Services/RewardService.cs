@@ -1,13 +1,32 @@
+using CORE.Entities;
 using CORE.Interfaces;
 
 namespace CORE.Services;
 
 public class RewardService : Iservice<CORE.Entities.Reward>
 {
-     private readonly Iservice _iService;
-
-    public RewardService(Iservice iService)
+    public Reward add(Reward obj)
     {
-        _iService = iService;
+        throw new NotImplementedException();
+    }
+
+    public Reward Delete(Reward obj)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<Reward> Get()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Reward GetById(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Reward Put(Reward obj)
+    {
+        throw new NotImplementedException();
     }
 }

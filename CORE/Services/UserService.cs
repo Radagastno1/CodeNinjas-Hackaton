@@ -1,13 +1,32 @@
+using CORE.Entities;
 using CORE.Interfaces;
 
 namespace CORE.Services;
 
 public class UserService : Iservice<CORE.Entities.User>
 {
-    private readonly Iservice _iService;
-
-    public UserService(Iservice iService)
+    public User add(User obj)
     {
-        _iService = iService;
+        throw new NotImplementedException();
+    }
+
+    public User Delete(User obj)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<User> Get()
+    {
+        throw new NotImplementedException();
+    }
+
+    public User GetById(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public User Put(User obj)
+    {
+        throw new NotImplementedException();
     }
 }
