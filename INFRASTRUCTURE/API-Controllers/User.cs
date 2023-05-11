@@ -19,8 +19,11 @@ public class User
         private readonly ILogger<Usercontroller> _logger;
         private readonly User _user;
 
-        public Usercontroller(ILogger<Usercontroller> logger, User user)
+        private readonly Challenge _challenge;
+
+        public Usercontroller(ILogger<Usercontroller> logger, User user, Challenge challenge)
         {
+            _challenge = challenge;
             _logger = logger;
             _user = user;
         }
