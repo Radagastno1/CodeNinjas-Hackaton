@@ -8,4 +8,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CORE
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\angel\Documents\HACKATON\CodeNinjas-Hackaton\CORE\
+=======
+<<<<<<< HEAD
+build_property.ProjectDir = c:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\CORE\
+=======
+build_property.ProjectDir = c:\Users\angel\Documents\HACKATON\CodeNinjas-Hackaton\CORE\
+>>>>>>> 25b94b6e2c0afb3fb67f9bb3c3cdd7c224a6a44a
+>>>>>>> 3e4e3be5ac38c19e0491c0e986dee7822e61a622

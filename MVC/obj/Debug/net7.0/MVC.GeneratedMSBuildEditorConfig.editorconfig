@@ -9,7 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC
 build_property.RootNamespace = MVC
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\angel\Documents\HACKATON\CodeNinjas-Hackaton\mvc\
+=======
+<<<<<<< HEAD
+build_property.ProjectDir = c:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/danie/Documents/Programmering/CodeNinjas-Hackaton/MVC/Views/Challenge/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbGxlbmdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/danie/Documents/Programmering/CodeNinjas-Hackaton/MVC/Views/Home/BecomeMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCZWNvbWVNZW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/danie/Documents/Programmering/CodeNinjas-Hackaton/MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/danie/Documents/Programmering/CodeNinjas-Hackaton/MVC/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/danie/Documents/Programmering/CodeNinjas-Hackaton/MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/danie/Documents/Programmering/CodeNinjas-Hackaton/MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/danie/Documents/Programmering/CodeNinjas-Hackaton/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/danie/Documents/Programmering/CodeNinjas-Hackaton/MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/danie/Documents/Programmering/CodeNinjas-Hackaton/MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/danie/Documents/Programmering/CodeNinjas-Hackaton/MVC/Views/Shared/_Layout.cshtml]
+=======
+build_property.ProjectDir = c:\Users\angel\Documents\HACKATON\CodeNinjas-Hackaton\MVC\
+>>>>>>> 3e4e3be5ac38c19e0491c0e986dee7822e61a622
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -60,6 +110,11 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [C:/Users/angel/Documents/HACKATON/CodeNinjas-Hackaton/mvc/Views/Shared/_Layout.cshtml]
+=======
+[c:/Users/angel/Documents/HACKATON/CodeNinjas-Hackaton/MVC/Views/Shared/_Layout.cshtml]
+>>>>>>> 25b94b6e2c0afb3fb67f9bb3c3cdd7c224a6a44a
+>>>>>>> 3e4e3be5ac38c19e0491c0e986dee7822e61a622
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q0a04yuu0e
