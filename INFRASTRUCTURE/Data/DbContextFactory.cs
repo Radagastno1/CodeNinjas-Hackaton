@@ -1,11 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using Microsoft.EntityFrameworkCore.Sqlite;
 
 
 namespace INFRASTRUCTURE.Data
 {
-    public class SevenGoContext : IDesignTimeDbContextFactory<DbContext>
+    public class SevenGoContextFactory : IDesignTimeDbContextFactory<SevenGoContext>
     {
         public SevenGoContext CreateDbContext(string[] args)
         {

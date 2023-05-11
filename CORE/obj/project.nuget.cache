@@ -1,15 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "s/q1qO7ePbNJNtU7e/cuo1/Nwm/XO6Z/ExYHkVwIDLXdIfX2PJLrt7qMv5sSNfe5gqzVFq7TCh/amQy8viqX5Q==",
+<<<<<<< HEAD
+  "dgSpecHash": "ODuzU/yvLyoyMSX/Q9iu1mtHvwuectmGlNLD5f+5TGVnyvhnMz928C6prvC4rFpPgIP3bwhkGv21uf+Dmohyjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+  "projectFilePath": "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+=======
+  "dgSpecHash": "G0lRCyjxqhFArH5jx0ZOgAcO/aVvv0cNIke0bfcabbQT0+inDN5h0F2Qj/HrZXawdOrOoiGN6uumSLMDay7DBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+>>>>>>> 827a894982658ee51f7775203a0fda5ea5de4378
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -1,30 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\MVC\\MVC.csproj": {}
-=======
-    "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj": {}
->>>>>>> 789476d04897a7557e7beebf4bec531366f4a77d
   },
   "projects": {
-    "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+    "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
         "projectName": "CORE",
-<<<<<<< HEAD
         "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
         "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\obj\\",
-=======
-        "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
-        "packagesPath": "C:\\Users\\DenThu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\obj\\",
->>>>>>> 789476d04897a7557e7beebf4bec531366f4a77d
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DenThu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -63,31 +53,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\MVC\\MVC.csproj": {
-=======
-    "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj": {
->>>>>>> 789476d04897a7557e7beebf4bec531366f4a77d
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\MVC\\MVC.csproj",
         "projectName": "MVC",
-<<<<<<< HEAD
         "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\MVC\\MVC.csproj",
         "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\MVC\\obj\\",
-=======
-        "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
-        "packagesPath": "C:\\Users\\DenThu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\obj\\",
->>>>>>> 789476d04897a7557e7beebf4bec531366f4a77d
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DenThu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -99,13 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
                 "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
-=======
-              "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
-                "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
->>>>>>> 789476d04897a7557e7beebf4bec531366f4a77d
               }
             }
           }
@@ -138,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
