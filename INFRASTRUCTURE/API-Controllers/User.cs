@@ -6,7 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using CORE.Entities;
 using Microsoft.Extensions.Logging;
 
-namespace INFRASTRUCTURE.Controller
+
+
+namespace MVC.Controllers;
+
+public class User
 {
     [ApiController]
     [Route("api/[controller]")]
