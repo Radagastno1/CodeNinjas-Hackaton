@@ -1,13 +1,32 @@
+using CORE.Entities;
 using CORE.Interfaces;
 
 namespace CORE.Services;
 
 public class TrackService : Iservice<CORE.Entities.Track>
 {
-     private readonly Iservice _iService;
-
-    public UserService(Iservice iService)
+    public Track add(Track obj)
     {
-        _iService = iService;
+        throw new NotImplementedException();
+    }
+
+    public Track Delete(Track obj)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<Track> Get()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Track GetById(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Track Put(Track obj)
+    {
+        throw new NotImplementedException();
     }
 }
