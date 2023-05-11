@@ -21,7 +21,7 @@ public class SevenGoContext : DbContext
                     j => j.HasOne(uf => uf.Contact)
                           .WithMany()
                           .HasForeignKey(uf => uf.contactId),
-                    j => j.ToTable("Contacts"));
+                    j => j.ToTable("Contact"));
         }
 
         modelBuilder.Entity<User>().HasData(new Movie
