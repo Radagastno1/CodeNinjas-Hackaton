@@ -4,10 +4,10 @@ namespace CORE.Services;
 
 public class UserService : Iservice<CORE.Entities.User>
 {
-    private readonly Iservices _iServices;
+    private readonly Iservice _iService;
 
-    public UserService(Iservices iServices)
+    public UserService(Iservice iService)
     {
-        _iServices = iServices;
+        _iService = iService;
     }
 }

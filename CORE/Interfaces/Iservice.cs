@@ -1,4 +1,4 @@
-namespace CORE.interfaces;
+namespace CORE.Interfaces;
 
 public interface Iservice<T>
 {
