@@ -3,6 +3,17 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDbContext<Core.Data.TrananDbContext>(
+    options =>
+        options.UseSqlite(
+            "Data Source=INFRASTRUCTURE/Data/DbContext"
+        )
+);
+
+builder.Services.AddScoped<
+    CORE.interfaces.Iservice<CORE.Entities.User>,CORE.Services.UserService
+>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
