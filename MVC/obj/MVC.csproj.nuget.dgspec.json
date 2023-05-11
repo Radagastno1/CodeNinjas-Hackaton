@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\MVC\\MVC.csproj": {}
+    "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj": {}
   },
   "projects": {
-    "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+    "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+        "projectUniqueName": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
-        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\obj\\",
+        "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+        "packagesPath": "C:\\Users\\DenThu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DenThu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,32 +57,30 @@
         }
       }
     },
-    "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\MVC\\MVC.csproj": {
+    "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\MVC\\MVC.csproj",
+        "projectUniqueName": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
         "projectName": "MVC",
-        "projectPath": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\MVC\\MVC.csproj",
-        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\MVC\\obj\\",
+        "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
+        "packagesPath": "C:\\Users\\DenThu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DenThu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
-                "projectPath": "c:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
+              "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+                "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
               }
             }
           }
