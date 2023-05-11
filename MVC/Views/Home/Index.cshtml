@@ -1,24 +1,63 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "7-GO";
 }
 
+<<<<<<< HEAD
 <header>html
     
     <div>
         <h1>7-GO</h1>
     </div>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+    <script>
+        function initMap() {
+            // Koordinater för Sjuhärad Borås
+            var sjuharad = { lat: 57.721, lng: 12.939 };
+>>>>>>> 43eda04328d7eee0a2af93cf85b4789efbc9245b
 
-    <div>
-        <a href="">Kom igång</a>
-        <a href="">Logga in</a>
-        <a href="">Om 7-GO</a>
-    </div>
+            // Skapa en karta med centrum i Sjuhärad Borås
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: sjuharad
+            });
 
-</header>
+            // Lägg till en markör på kartan
+            var marker = new google.maps.Marker({
+                position: sjuharad,
+                map: map,
+                title: 'Sjuhärad Borås'
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>7-GO</h1>
+        </div>
+        <div>
+            <a href="/start">Kom igång</a>
+            <a href="/login">Logga in</a>
+            <a href="/about">Om 7-GO</a>
+        </div>
+    </header>
 
-<main>
+    <main>
+        <div id="map"></div>
+    </main>
 
-</main>
-<footer>
-
-</footer>
+    <footer>
+    </footer>
+</body>
+</html>
