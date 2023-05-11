@@ -17,8 +17,9 @@ public class HomeController : Controller
     {
         return View();
     }
-     public IActionResult Index()
+     public IActionResult Login()
     {
-        return View();
+        var userViewModel = new UserViewModel();
+        return View(userViewModel);
     }
 }
