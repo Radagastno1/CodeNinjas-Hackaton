@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "owSC6L1+oT0diJcAhIxYnBniyKKC58SoUXn0h96q6qOuN3hy06MBEutl5/yEbhf5GpbKt7RBIGSjSnnHrtNUiQ==",
+  "dgSpecHash": "gNnrZgyyiTvYO3uVllDM9QvzwvrOR2UM863ow2F7LUU354zYgyrYioDnpp014TzFg+1e/jJFOG9QAOGlIyWGXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
+  "projectFilePath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zhinr\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Zhinr\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
@@ -183,5 +183,12 @@
     "C:\\Users\\Zhinr\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\Zhinr\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

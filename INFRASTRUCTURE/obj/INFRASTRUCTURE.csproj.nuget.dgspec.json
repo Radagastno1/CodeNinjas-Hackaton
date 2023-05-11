@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {}
+    "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+    "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+        "projectUniqueName": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+        "projectPath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
         "packagesPath": "C:\\Users\\Zhinr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\obj\\",
+        "outputPath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zhinr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {
+    "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
+        "projectUniqueName": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
         "projectName": "INFRASTRUCTURE",
-        "projectPath": "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
+        "projectPath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
         "packagesPath": "C:\\Users\\Zhinr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\obj\\",
+        "outputPath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zhinr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
-                "projectPath": "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
+              "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+                "projectPath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
               }
             }
           }

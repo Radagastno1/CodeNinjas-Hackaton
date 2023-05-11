@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "zk1E4Gcn/Allr/0nFNzI5AZC2Hez8FDhp/k9kmV92MwryGnc6U/p7AEkPPkUsoGVZp7J/azTw6mCHTaoGbLd0Q==",
+  "dgSpecHash": "NPzFklMumPlDLn4XJWPSe2mSVHJE3aHtwH2DhkKYnBw1Z04DERghIfGRBfn1E6kbs8F9G+04n5a9ZcvG8Ymu6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+  "projectFilePath": "c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\Zhinr\\Documents\\CodeNinjas-Hackaton\\CORE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
