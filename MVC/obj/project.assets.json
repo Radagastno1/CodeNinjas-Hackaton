@@ -8785,16 +8785,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
               "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
-=======
-            "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
-              "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
             },
-            "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {
-              "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj"
->>>>>>> 55c3b622566d722b450efe090421d55927385aad
+            "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {
+              "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj"
             }
           }
         }
@@ -8840,5 +8835,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\mvc\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
