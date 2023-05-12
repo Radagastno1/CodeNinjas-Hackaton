@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,16 @@ namespace INFRASTRUCTURE.APIControllers
         public async Task<ActionResult<Challenge>> CreateUserChallenge([FromBody] Challenge challenge)
         {
             var createChallenge = await this._service.add(challenge);
+=======
+// using System;
+// using System.Collections.Generic;
+// using System.Linq;
+// using System.Threading.Tasks;
+// using Microsoft.AspNetCore.Mvc;
+// using CORE.Entities;
+// using CORE.Services;
+// using Microsoft.Extensions.Logging;
+>>>>>>> 2ee4ce451ecb0166ad1bdb360173a803bd2edbef
 
             if (createChallenge == null)
             {
@@ -40,12 +51,32 @@ namespace INFRASTRUCTURE.APIControllers
             return Ok();
         }
 
+<<<<<<< HEAD
         [HttpPost]
         [ProducesResponseType(statusCode: 200)]
         [ProducesResponseType(statusCode: 400)]
         public async Task<ActionResult<User>> UserChallenge([FromBody] User user)
         {
             var userChallenge = await this._service.add(user);
+=======
+//         [HttpPost]
+//         public async Task<ActionResult<Challenge>> CreateUserChallenge([FromBody] Challenge challenge)
+//         {
+//             var createChallenge = await this._challenge.CreateChallenge(challenge);
+
+//             if (createChallenge == null)
+//             {
+//                 return BadRequest();
+//             }
+
+//             return Ok();
+//         }
+
+//         [HttpPost]
+//         public async Task<ActionResult<User>> UserChallenge([FromBody] User user)
+//         {
+//             var userChallenge = await this.UserToUserChallenge(user);
+>>>>>>> 2ee4ce451ecb0166ad1bdb360173a803bd2edbef
 
             if (userChallenge == null)
             {
@@ -55,6 +86,7 @@ namespace INFRASTRUCTURE.APIControllers
             return Ok();
         }
 
+<<<<<<< HEAD
         [HttpGet]
         [ProducesResponseType(statusCode: 200)]
         [ProducesResponseType(statusCode: 400)]
@@ -82,3 +114,28 @@ namespace INFRASTRUCTURE.APIControllers
         }
     }
 }
+=======
+//         [HttpGet]
+//         public async Task<ActionResult<List<Challenge>>> GetAllChallanges()
+//         {
+//             var challangeList = await this._challenge.ChallangesList();
+//             if (challangeList == null)
+//             {
+//                 return BadRequest();
+//             }
+//             return Ok();
+//         }
+
+//         [HttpGet("{int:id}")]
+//         public async Task<ActionResult<Challenge>> GetChallengeById(int id)
+//         {
+//             var result = await this._challenge.ChallengeById(id);
+//             if (result == null)
+//             {
+//                 return NotFound();
+//             }
+//             return Ok();
+//         }
+//     }
+// }
+>>>>>>> 2ee4ce451ecb0166ad1bdb360173a803bd2edbef

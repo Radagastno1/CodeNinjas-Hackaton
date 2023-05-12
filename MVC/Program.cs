@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<INFRASTRUCTURE.Data.SevenGoContext>(
     options =>
         options.UseSqlite(
-            "Data Source=INFRASTRUCTURE/Data/DbContext"
+            "Data Source=INFRASTRUCTURE/Data/7GO.db"
         )
 );
 

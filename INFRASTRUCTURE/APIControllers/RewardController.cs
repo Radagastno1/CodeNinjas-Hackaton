@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,15 @@ namespace INFRASTRUCTURE.APIControllers
             _logger = logger;
             _service = service;
         }
+=======
+// using System;
+// using System.Collections.Generic;
+// using System.Linq;
+// using System.Threading.Tasks;
+// using Microsoft.Extensions.Logging;
+// using Microsoft.AspNetCore.Mvc;
+// using CORE.Entities;
+>>>>>>> 2ee4ce451ecb0166ad1bdb360173a803bd2edbef
 
         [HttpPost]
          public async Task<ActionResult<Reward>> PostReward([FromBody] Reward reward)
@@ -29,6 +39,7 @@ namespace INFRASTRUCTURE.APIControllers
                 return BadRequest();
             }
 
+<<<<<<< HEAD
             var post = await this._service.add(reward);
             return Ok();
         }
@@ -56,3 +67,47 @@ namespace INFRASTRUCTURE.APIControllers
         }
      }
  }
+=======
+//         public RewardController(ILogger<Challangecontroller> logger, Reward reward)
+//         {
+//             _logger = logger;
+//             _reward = reward;
+//         }
+
+//         [HttpPost]
+//         public async Task<ActionResult<Reward>> PostReward([FromBody] Reward reward)
+//         {
+//             if (!ModelState.IsValid)
+//             {
+//                 return BadRequest();
+//             }
+
+//             var post = await this._reward.CreateReward(reward);
+//             return Ok();
+//         }
+
+//         [HttpGet]
+//         public async Task<ActionResult<List<Reward>>> GetAllRewards()
+//         {
+//             var rewardList = await this._reward.GetAllRewardsList();
+//             if (rewardList == null)
+//             {
+//                 return NotFound();
+//             }
+//             return Ok();
+//         }
+
+//         [HttpGet("{id:int}")]
+//         public async Task<ActionResult<Reward>> GetRewardById(int id)
+//         {
+//             var reward = await this._reward.GetRewardByID(id);
+//             if (reward == null)
+//             {
+//                 return NotFound();
+//             }
+//             return Ok(reward);
+//         }
+
+//     }
+// }
+>>>>>>> 2ee4ce451ecb0166ad1bdb360173a803bd2edbef
