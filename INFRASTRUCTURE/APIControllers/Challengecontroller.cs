@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9882940db1776b4b9a72eca8ee7c8c87b4c1c84e
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +11,7 @@ using CORE.Entities;
 using CORE.Services;
 using Microsoft.Extensions.Logging;
 using CORE.Interfaces;
+<<<<<<< HEAD
 
 namespace INFRASTRUCTURE.APIControllers
 {
@@ -63,15 +67,48 @@ namespace INFRASTRUCTURE.APIControllers
 //         public async Task<ActionResult<Challenge>> CreateUserChallenge([FromBody] Challenge challenge)
 //         {
 //             var createChallenge = await this._challenge.CreateChallenge(challenge);
+=======
 
-//             if (createChallenge == null)
-//             {
-//                 return BadRequest();
-//             }
+namespace INFRASTRUCTURE.APIControllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class Challangecontroller : ControllerBase
+    {
+        private readonly ILogger<Challangecontroller> _logger;
+        private readonly Iservice<CORE.Entities.Challenge> _service;
+        private readonly User _user;
 
-//             return Ok();
-//         }
+        public Challangecontroller(
+            ILogger<Challangecontroller> logger,
+            Iservice<CORE.Entities.Challenge> service,
+            User user
+        )
+        {
+            _logger = logger;
+            _service = service;
+            _user = user;
+        }
 
+        [HttpPost]
+        [ProducesResponseType(statusCode: 200)]
+        [ProducesResponseType(statusCode: 400)]
+        public async Task<ActionResult<Challenge>> CreateUserChallenge(
+            [FromBody] Challenge challenge
+        )
+        {
+            var createChallenge = await this._service.add(challenge);
+>>>>>>> 9882940db1776b4b9a72eca8ee7c8c87b4c1c84e
+
+            if (createChallenge == null)
+            {
+                return BadRequest();
+            }
+
+            return Ok();
+        }
+
+<<<<<<< HEAD
 //         [HttpPost]
 //         public async Task<ActionResult<User>> UserChallenge([FromBody] User user)
 //         {
@@ -139,3 +176,41 @@ namespace INFRASTRUCTURE.APIControllers
 //     }
 // }
 >>>>>>> 2ee4ce451ecb0166ad1bdb360173a803bd2edbef
+=======
+        //         [HttpPost]
+        //         public async Task<ActionResult<User>> UserChallenge([FromBody] User user)
+        //         {
+        //             var userChallenge = await this.UserToUserChallenge(user);
+
+        //             if (userChallenge == null)
+        //             {
+        //                 return BadRequest();
+        //             }
+
+        //             return Ok();
+        //         }
+
+        //         [HttpGet]
+        //         public async Task<ActionResult<List<Challenge>>> GetAllChallanges()
+        //         {
+        //             var challangeList = await this._challenge.ChallangesList();
+        //             if (challangeList == null)
+        //             {
+        //                 return BadRequest();
+        //             }
+        //             return Ok();
+        //         }
+
+        //         [HttpGet("{int:id}")]
+        //         public async Task<ActionResult<Challenge>> GetChallengeById(int id)
+        //         {
+        //             var result = await this._challenge.ChallengeById(id);
+        //             if (result == null)
+        //             {
+        //                 return NotFound();
+        //             }
+        //             return Ok();
+        //         }
+    }
+}
+>>>>>>> 9882940db1776b4b9a72eca8ee7c8c87b4c1c84e

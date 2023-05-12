@@ -1,8 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "XS/XBwLJ6TS71meiiJboeFsal63NJiJgo6u05bfu98AAzUYFGrCkPsguNqaG5wpi6o5a8EgTs0OTjZvxM0fGog==",
   "success": true,
   "projectFilePath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "FPUl47eQMLJZpNYCeXjSfrDVin+lioh3vv4FKhc7XjjeEKXwkEvt6tBwof5ifqshkyFL08UwAlepLSLaHtL5Og==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+=======
+  "dgSpecHash": "G0lRCyjxqhFArH5jx0ZOgAcO/aVvv0cNIke0bfcabbQT0+inDN5h0F2Qj/HrZXawdOrOoiGN6uumSLMDay7DBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+>>>>>>> 2ee4ce451ecb0166ad1bdb360173a803bd2edbef
+>>>>>>> 9882940db1776b4b9a72eca8ee7c8c87b4c1c84e
   "expectedPackageFiles": [],
   "logs": []
 }
