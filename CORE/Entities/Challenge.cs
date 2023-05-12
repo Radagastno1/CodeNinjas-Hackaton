@@ -1,3 +1,5 @@
+#nullable disable
+
 namespace CORE.Entities
 {
     public class Challenge

@@ -2,9 +2,9 @@ namespace CORE.Interfaces;
 
 public interface Iservice<T>
 {
-    public T add(T obj);
-    public List<T> Get();
-    public T GetById(int id);
-    public T Put(T obj);
-    public T Delete(T obj);
+    public Task<T> add(T obj);
+    public Task<List<T>> Get();
+    public Task<T> GetById(int id);
+    public Task<T> Put(T obj);
+    public Task<T> Delete(T obj);
 }

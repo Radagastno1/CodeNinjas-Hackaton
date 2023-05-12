@@ -15,20 +15,22 @@ public class SevenGoContext : DbContext
                 .HasMany(u => u.users)
                 .WithMany()
                 .UsingEntity<Contact>(
-                    j => j.HasOne(uf => uf.User)
+                    j => j.HasOne(uf => uf.user)
                           .WithMany()
                           .HasForeignKey(uf => uf.userId),
-                    j => j.HasOne(uf => uf.Contact)
+                    j => j.HasOne(uf => uf.contact)
                           .WithMany()
                           .HasForeignKey(uf => uf.contactId),
                     j => j.ToTable("Contacts"));
         }
 
-        modelBuilder.Entity<User>().HasData(new Movie
-        {
-        });
+        // modelBuilder.Entity<User>().HasData(new Movie
+        // {
+        // });
     }
 
     public DbSet<User> users { get; set; }
     public DbSet<Track> tracks { get; set; }
+    public DbSet<Contact> contacts { get; set; }
+    public DbSet<Challenge> challenge { get; set; }
 }
