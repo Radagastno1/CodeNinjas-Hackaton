@@ -57,7 +57,7 @@ main
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: calc(100vh);
+  height: calc(100vh - 50px);
   background-color: #131111;
 }
 .info-div

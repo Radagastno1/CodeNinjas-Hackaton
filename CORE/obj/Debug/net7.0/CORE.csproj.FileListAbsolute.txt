@@ -22,3 +22,15 @@ C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0
 C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\refint\CORE.dll
 C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\CORE.pdb
 C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\ref\CORE.dll
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\bin\Debug\net7.0\CORE.deps.json
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\bin\Debug\net7.0\CORE.dll
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\bin\Debug\net7.0\CORE.pdb
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\CORE.csproj.AssemblyReference.cache
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\CORE.AssemblyInfoInputs.cache
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\CORE.AssemblyInfo.cs
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\CORE.csproj.CoreCompileInputs.cache
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\CORE.dll
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\refint\CORE.dll
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\CORE.pdb
+C:\Users\nyman\Documents\SUVNET22\GIT\Hackathon\CodeNinjas-Hackaton\CORE\obj\Debug\net7.0\ref\CORE.dll
