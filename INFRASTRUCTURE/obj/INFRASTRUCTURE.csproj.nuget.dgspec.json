@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {}
   },
   "projects": {
@@ -13,41 +12,14 @@
         "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
         "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\obj\\",
-=======
-    "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
-        "projectName": "CORE",
-        "projectPath": "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
-        "packagesPath": "C:\\Users\\nyman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\CORE\\obj\\",
->>>>>>> 17e1d6d67c6419f00c9f9b273332b38cd56ea817
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-          "C:\\Users\\nyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> 17e1d6d67c6419f00c9f9b273332b38cd56ea817
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-<<<<<<< HEAD
-=======
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
->>>>>>> 17e1d6d67c6419f00c9f9b273332b38cd56ea817
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,7 +53,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
@@ -94,55 +65,22 @@
         "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
         "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\obj\\",
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
-        "projectName": "INFRASTRUCTURE",
-        "projectPath": "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
-        "packagesPath": "C:\\Users\\nyman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\obj\\",
->>>>>>> 17e1d6d67c6419f00c9f9b273332b38cd56ea817
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-          "C:\\Users\\nyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> 17e1d6d67c6419f00c9f9b273332b38cd56ea817
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-<<<<<<< HEAD
-=======
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
->>>>>>> 17e1d6d67c6419f00c9f9b273332b38cd56ea817
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
                 "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
-=======
-              "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
-                "projectPath": "C:\\Users\\nyman\\Documents\\SUVNET22\\GIT\\Hackathon\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
->>>>>>> 17e1d6d67c6419f00c9f9b273332b38cd56ea817
               }
             }
           }
@@ -198,11 +136,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
->>>>>>> 17e1d6d67c6419f00c9f9b273332b38cd56ea817
         }
       }
     }
