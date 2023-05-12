@@ -5,28 +5,38 @@ namespace CORE.Services;
 
 public class RewardService : Iservice<CORE.Entities.Reward>
 {
+    private readonly IRepository<Reward> _rewardRepo;
+
+    public RewardService(IRepository<Reward> rewardRepo)
+    {
+        _rewardRepo = rewardRepo;
+    }
     public async Task<Reward> add(Reward obj)
     {
-        throw new NotImplementedException();
+        var newReward = await _rewardRepo.Create(obj);
+        return newReward;
     }
 
-    public async Task<Reward> Delete(Reward obj)
+    public async Task Delete(Reward obj)
     {
-        throw new NotImplementedException();
+        await _rewardRepo.Delete(obj);
     }
 
     public async Task<List<Reward>> Get()
     {
-        throw new NotImplementedException();
+        List<Reward> rewards = await _rewardRepo.Get();
+        return rewards;
     }
 
     public async Task<Reward> GetById(int id)
     {
-        throw new NotImplementedException();
+        var reward = await _rewardRepo.GetById(id);
+        return reward;
     }
 
     public async Task<Reward> Put(Reward obj)
     {
-        throw new NotImplementedException();
+        var putChallenge = await _rewardRepo.Update(obj);
+        return putChallenge;
     }
 }

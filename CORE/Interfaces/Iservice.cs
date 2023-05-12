@@ -6,5 +6,5 @@ public interface Iservice<T>
     public Task<List<T>> Get();
     public Task<T> GetById(int id);
     public Task<T> Put(T obj);
-    public Task<T> Delete(T obj);
+    public Task Delete(T obj);
 }

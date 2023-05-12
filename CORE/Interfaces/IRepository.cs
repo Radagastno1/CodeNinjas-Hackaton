@@ -7,4 +7,6 @@ public interface IRepository<T>
     public Task<List<T>> Get();
     public Task<T> GetById(int id);
     public Task DeleteById(int id);
+    public Task Delete(T obj);
+
 }

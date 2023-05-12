@@ -58,35 +58,39 @@ namespace INFRASTRUCTURE.APIControllers
             {
                 var user = await _dbContext.User.ToListAsync();
 
-                //                 if (User == null)
-                //                 {
-                //                     return NotFound();
-                //                 }
-
-                //                 // return Ok(user.TakeLast(10)); Show top 10 fastest runner order by ascending
-                //             }
-
-                [HttpPut]
-                public async Task<ActionResult<User>> UpdateUser([FromBody] User user)
+                if (User == null)
                 {
-
-
-                }
-                [HttpDelete]
-                public async Task<IActionResult> DeleteUser(int userId)
-                {
-                    var userToDelete = await _dbContext.User.FindAsync(userId);
-
-                    _dbContextTranan.user.Remove(userToDelete);
-
-                    await _dbContextTranan.SaveChangesAsync();
-
-                    return NoContent();
-
+                    return NotFound();
                 }
 
+                // return Ok(user.TakeLast(10)); Show top 10 fastest runner order by ascending
+            }
 
-//         }
-//     }
+            [HttpPut]
+            public async Task<ActionResult<User>> UpdateUser([FromBody] User user)
+            {
 
-// }
+
+            }
+
+            [HttpDelete]
+            public async Task<IActionResult> DeleteUser(int userId)
+            {
+                var userToDelete = await _dbContext.User.FindAsync(userId);
+
+                _dbContextTranan.user.Remove(userToDelete);
+
+                await _dbContextTranan.SaveChangesAsync();
+
+                return NoContent();
+
+            }
+
+
+        }
+    }
+}
+
+
+
+

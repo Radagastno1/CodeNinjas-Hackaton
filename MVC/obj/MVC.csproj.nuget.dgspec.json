@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\mvc\\MVC.csproj": {}
+    "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+    "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+        "projectUniqueName": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
-        "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\obj\\",
+        "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj",
+        "packagesPath": "C:\\Users\\DenThu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DenThu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,32 +53,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\mvc\\MVC.csproj": {
+    "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
-        "projectName": "MVC",
-        "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
-        "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\mvc\\obj\\",
-=======
-    "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
+        "projectUniqueName": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
         "projectName": "INFRASTRUCTURE",
-        "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
-        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\obj\\",
->>>>>>> 55c3b622566d722b450efe090421d55927385aad
+        "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj",
+        "packagesPath": "C:\\Users\\DenThu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DenThu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -90,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
-                "projectPath": "C:\\Users\\danie\\Documents\\Programmering\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
+              "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+                "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
               }
             }
           }
@@ -147,39 +136,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\mvc\\MVC.csproj": {
+    "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
+        "projectUniqueName": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
         "projectName": "MVC",
-        "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
-        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\mvc\\obj\\",
+        "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\MVC.csproj",
+        "packagesPath": "C:\\Users\\DenThu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DenThu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
-                "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
+              "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj": {
+                "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\CORE\\CORE.csproj"
               },
-              "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {
-                "projectPath": "C:\\Users\\angel\\Documents\\HACKATON\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj"
+              "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj": {
+                "projectPath": "C:\\Users\\DenThu\\SUVNET22\\Hackaton3\\CodeNinjas-Hackaton\\INFRASTRUCTURE\\INFRASTRUCTURE.csproj"
               }
             }
           }
@@ -222,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }
