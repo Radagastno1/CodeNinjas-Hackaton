@@ -29,4 +29,9 @@ public class TrackRepository : IRepository<CORE.Entities.Track>
     {
         throw new NotImplementedException();
     }
+
+    public async Task Delete(Track obj)
+    {
+        throw new NotImplementedException();
+    }
 }

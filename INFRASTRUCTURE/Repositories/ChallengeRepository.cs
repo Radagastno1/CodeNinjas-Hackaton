@@ -118,4 +118,9 @@ public class ChallengeRepository : IRepository<CORE.Entities.Challenge>
             return null;
         }
     }
+
+    public async Task Delete(Challenge obj)
+    {
+        throw new NotImplementedException();
+    }
 }
