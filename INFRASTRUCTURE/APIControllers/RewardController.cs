@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,69 +16,47 @@ namespace INFRASTRUCTURE.APIControllers
         private readonly ILogger<Challangecontroller> _logger;
         private readonly Iservice<CORE.Entities.Reward> _service;
 
-        public RewardController(ILogger<Challangecontroller> logger, Iservice<CORE.Entities.Reward> service)
+        public RewardController(
+            ILogger<Challangecontroller> logger,
+            Iservice<CORE.Entities.Reward> service
+        )
         {
             _logger = logger;
             _service = service;
         }
-=======
-// using System;
-// using System.Collections.Generic;
-// using System.Linq;
-// using System.Threading.Tasks;
-// using Microsoft.Extensions.Logging;
-// using Microsoft.AspNetCore.Mvc;
-// using CORE.Entities;
 
-// namespace INFRASTRUCTURE.APIControllers
-// {
-//     [ApiController]
-//     [Route("api/[controller]")]
-//     public class RewardController : ControllerBase
-//     {
-//         private readonly ILogger<Challangecontroller> _logger;
-//         private readonly Reward _reward;
+        //         [HttpPost]
+        //         public async Task<ActionResult<Reward>> PostReward([FromBody] Reward reward)
+        //         {
+        //             if (!ModelState.IsValid)
+        //             {
+        //                 return BadRequest();
+        //             }
 
-//         public RewardController(ILogger<Challangecontroller> logger, Reward reward)
-//         {
-//             _logger = logger;
-//             _reward = reward;
-//         }
->>>>>>> b71e6091cb2d46c22cb600db07e5fb23b9966c9e
+        //             var post = await this._reward.CreateReward(reward);
+        //             return Ok();
+        //         }
 
-//         [HttpPost]
-//         public async Task<ActionResult<Reward>> PostReward([FromBody] Reward reward)
-//         {
-//             if (!ModelState.IsValid)
-//             {
-//                 return BadRequest();
-//             }
+        //         [HttpGet]
+        //         public async Task<ActionResult<List<Reward>>> GetAllRewards()
+        //         {
+        //             var rewardList = await this._reward.GetAllRewardsList();
+        //             if (rewardList == null)
+        //             {
+        //                 return NotFound();
+        //             }
+        //             return Ok();
+        //         }
 
-//             var post = await this._reward.CreateReward(reward);
-//             return Ok();
-//         }
-
-//         [HttpGet]
-//         public async Task<ActionResult<List<Reward>>> GetAllRewards()
-//         {
-//             var rewardList = await this._reward.GetAllRewardsList();
-//             if (rewardList == null)
-//             {
-//                 return NotFound();
-//             }
-//             return Ok();
-//         }
-
-//         [HttpGet("{id:int}")]
-//         public async Task<ActionResult<Reward>> GetRewardById(int id)
-//         {
-//             var reward = await this._reward.GetRewardByID(id);
-//             if (reward == null)
-//             {
-//                 return NotFound();
-//             }
-//             return Ok(reward);
-//         }
-
-//     }
-// }
+        //         [HttpGet("{id:int}")]
+        //         public async Task<ActionResult<Reward>> GetRewardById(int id)
+        //         {
+        //             var reward = await this._reward.GetRewardByID(id);
+        //             if (reward == null)
+        //             {
+        //                 return NotFound();
+        //             }
+        //             return Ok(reward);
+        //         }
+    }
+}

@@ -9,11 +9,7 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC
 build_property.RootNamespace = MVC
-<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\angel\Documents\HACKATON\CodeNinjas-Hackaton\MVC\
-=======
-build_property.ProjectDir = C:\Users\danie\Documents\Programmering\CodeNinjas-Hackaton\mvc\
->>>>>>> b71e6091cb2d46c22cb600db07e5fb23b9966c9e
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -64,10 +60,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< HEAD
 [c:/Users/angel/Documents/HACKATON/CodeNinjas-Hackaton/MVC/Views/Shared/_Layout.cshtml]
-=======
-[C:/Users/danie/Documents/Programmering/CodeNinjas-Hackaton/mvc/Views/Shared/_Layout.cshtml]
->>>>>>> b71e6091cb2d46c22cb600db07e5fb23b9966c9e
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q0a04yuu0e
