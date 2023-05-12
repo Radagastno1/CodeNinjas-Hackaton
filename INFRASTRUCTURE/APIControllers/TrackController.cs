@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CORE.Entities;
 using CORE.Services;
+using CORE.Interfaces;
 using Microsoft.Extensions.Logging;
 
 namespace INFRASTRUCTURE.APIControllers
@@ -15,21 +16,21 @@ namespace INFRASTRUCTURE.APIControllers
     {
         private readonly ILogger<Challangecontroller> _logger;
         private readonly Challenge _challenge;
-        private readonly Track _track;
+        private readonly Iservice<CORE.Entities.Track> _service;
 
-        public Challangecontroller(ILogger<Challangecontroller> logger, Challenge challenge, Track track)
+        public Trackcontroller(ILogger<Challangecontroller> logger, Challenge challenge, Iservice<CORE.Entities.Track> service)
         {
             _logger = logger;
             _challenge = challenge;
-            _track = track;
+            _service = service;
         }
 
         [HttpPost]
         public async Task<ActionResult<Track>> CreateNewTrack([FromBody] Track track)
         {
-            var createChallenge = await this._track.CreateChallenge(track);
+            var createChallenge = await this._service.add(track);
 
-            if (trackChallenge == null)
+            if (createChallenge == null)
             {
                 return BadRequest();
             }

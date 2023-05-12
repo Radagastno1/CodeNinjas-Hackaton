@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Mvc;
 using CORE.Entities;
+using CORE.Interfaces;
 
 namespace INFRASTRUCTURE.APIControllers
 {
@@ -13,12 +14,12 @@ namespace INFRASTRUCTURE.APIControllers
     public class RewardController : ControllerBase
     {
         private readonly ILogger<Challangecontroller> _logger;
-        private readonly Reward _reward;
+        private readonly Iservice<CORE.Entities.Reward> _service;
 
-        public RewardController(ILogger<Challangecontroller> logger, Reward reward)
+        public RewardController(ILogger<Challangecontroller> logger, Iservice<CORE.Entities.Reward> service)
         {
             _logger = logger;
-            _reward = reward;
+            _service = service;
         }
 
         [HttpPost]
@@ -29,14 +30,14 @@ namespace INFRASTRUCTURE.APIControllers
                 return BadRequest();
             }
 
-            var post = await this._reward.CreateReward(reward);
+            var post = await this._service.add(reward);
             return Ok();
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Reward>>> GetAllRewards()
         {
-            var rewardList = await this._reward.GetAllRewardsList();
+            var rewardList = await this._service.Get();
             if (rewardList == null)
             {
                 return NotFound();
@@ -47,7 +48,7 @@ namespace INFRASTRUCTURE.APIControllers
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Reward>> GetRewardById(int id)
         {
-            var reward = await this._reward.GetRewardByID(id);
+            var reward = await this._service.GetById(id);
             if (reward == null)
             {
                 return NotFound();
