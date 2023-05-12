@@ -23,8 +23,8 @@ public class TrackController : Controller
         //test
         var track = new CORE.Entities.Track()
         {
-            latitude = 57.70657984036197M,
-            longitude = 12.981750461096478M,
+            latitude = 57.7126388M,
+            longitude = 12.960225M,
             track_name = "Kransmossen"
         };
         return View(track);
