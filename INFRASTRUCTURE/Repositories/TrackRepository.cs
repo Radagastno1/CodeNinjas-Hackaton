@@ -3,9 +3,9 @@ using CORE.Interfaces;
 
 namespace INFRASTRUCTURE.Repositories;
 
-public class UserRepository : IRepository<CORE.Entities.User>
+public class TrackRepository : IRepository<CORE.Entities.Track>
 {
-    public async Task<User> Create(User obj)
+    public async Task<Track> Create(Track obj)
     {
         throw new NotImplementedException();
     }
@@ -15,17 +15,17 @@ public class UserRepository : IRepository<CORE.Entities.User>
         throw new NotImplementedException();
     }
 
-    public async Task<List<User>> Get()
+    public async Task<List<Track>> Get()
     {
         throw new NotImplementedException();
     }
 
-    public async Task<User> GetById(int id)
+    public async Task<Track> GetById(int id)
     {
         throw new NotImplementedException();
     }
 
-    public async Task<User> Update(User obj)
+    public async Task<Track> Update(Track obj)
     {
         throw new NotImplementedException();
     }

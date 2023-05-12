@@ -1,27 +1,18 @@
-body
-{
-    width: 100%;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("https://www.boras.se/images/18.3577946815d52223fa9a39f9/1500627398113/flygfoto.jpg");
+  background-size: 100% auto; /* Adjust the zoom level and fill the header */
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 225px;
 }
-header
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-image: url("https://www.kalibrera.se/images/kalibrering/elastocon-mc-lokal-service-karta-750px.jpg");
-    width: 100%;
-    height: 100px;
-}
+
 h1
 {
     font-size: 60px;
-}
-a
-{
-    text-decoration: none;
-    padding: 10px;
-    color: rgb(52, 51, 53);
-    font-size: 30px;
-    font-weight: bold;
 }
 a:hover 
 {
@@ -29,24 +20,19 @@ a:hover
 }
 *
 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body
-{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  flex: 1;
-}
-header
-{
-  width: 100%;
-  height: 54px;
-  top: 0;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+  }
+
 .head-div
 {
   width: 100%;
@@ -57,7 +43,7 @@ header
 }
 .login-button
 {
-  background: #1a73e8;
+  background: #000000;
   border-radius: 4px;
   border: 1px solid transparent;
   font-size: 14px;
@@ -71,48 +57,8 @@ main
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: calc(100vh - 54px - 96px);
-}
-.logo-div
-{
-  margin-top: 0;
-}
-.search-div
-{
-  border-radius: 24px;
-  border: 1px solid #dfe1e5;
-  padding: 8px 16px;
-  box-shadow: 0 1px 6px rgba(32,33,36,0.28);
-  display: flex;
-}
-textarea
-{
-  margin-bottom: 1px;
-  line-height: 20px;
-  width: 500px;
-  border: 2px solid rgba(0, 0, 0, 0);
-  resize: none;
-}
-#gray-button
-{
-  background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
-  font-size: 14px;
-  padding: 9px 23px;
-  border-radius: 4px;
-  margin-top: 40px;
-}
-footer
-{
-  background-color: coral;
-  margin-bottom: 0;
-  width: 100%;
-  height: 96px;
-  background-color: #f2f2f2;
-  color: #70757A;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  height: calc(100vh);
+  background-color: #131111;
 }
 .info-div
 {
@@ -127,4 +73,20 @@ a, button
   color: rgba(0,0,0,.87);
   text-decoration: none;
   cursor: pointer;
+}
+/* .logo-div
+{
+  margin-top: 0;
+} */
+footer
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #262626;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

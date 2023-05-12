@@ -21,7 +21,7 @@ public class SevenGoContext : DbContext
                     j => j.HasOne(uf => uf.contact)
                           .WithMany()
                           .HasForeignKey(uf => uf.contactId),
-                    j => j.ToTable("Contact"));
+                    j => j.ToTable("Contacts"));
         }
 
         // modelBuilder.Entity<User>().HasData(new Movie
@@ -31,4 +31,6 @@ public class SevenGoContext : DbContext
 
     public DbSet<User> users { get; set; }
     public DbSet<Track> tracks { get; set; }
+    public DbSet<Contact> contacts { get; set; }
+    public DbSet<Challenge> challenge { get; set; }
 }

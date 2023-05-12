@@ -1,0 +1,73 @@
+@model CORE.Entities.Track //gör trackviewmodel
+
+@{
+    ViewData["Title"] = "Spår - " + Model.track_name;
+}
+
+<body>
+    <header>
+        <div>
+            <h1>7-GO</h1>
+        </div>
+        <div>
+            <a href="/logout">Logga ut</a>
+            <a href="/about">Om 7-GO</a>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="map"></div>
+        <div id="directionsPanel"></div>
+
+        <script>
+            function initMap() {
+                // Skapa en karta
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 12,
+                    center: { lat: @Model.latitude, lng: @Model.longitude } // Spårets koordinater
+                });
+
+                // Skapa en markör för spåret
+                var marker = new google.maps.Marker({
+                    position: { lat: @Model.latitude, lng: @Model.longitude },
+                    map: map,
+                    title: "@Model.track_name"
+                });
+
+                // Skapa en ruttvisningstjänst
+                var directionsService = new google.maps.DirectionsService();
+                var directionsRenderer = new google.maps.DirectionsRenderer({ suppressMarkers: true });
+                directionsRenderer.setMap(map);
+                directionsRenderer.setPanel(document.getElementById('directionsPanel'));
+
+                // Hämta användarens plats
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(function (position) {
+                        var userLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
+                        // Skapa en rutt från användarens plats till spåret
+                        var request = {
+                            origin: userLocation,
+                            destination: { lat: @Model.latitude, lng: @Model.longitude },
+                            travelMode: google.maps.TravelMode.WALKING
+                        };
+
+                        // Beräkna och visa ruttvägbeskrivning
+                        directionsService.route(request, function (result, status) {
+                            if (status == google.maps.DirectionsStatus.OK) {
+                                directionsRenderer.setDirections(result);
+                            }
+                        });
+                    });
+                }
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDVupq7kP99czQyiT7Tr6yH3syR2qZ6NaA&callback=initMap" async defer></script>
+</main>
+
+<footer>
+
+</footer>
+
+</body>
