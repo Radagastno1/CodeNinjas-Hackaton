@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,38 @@ namespace INFRASTRUCTURE.APIControllers
         public async Task<ActionResult<Challenge>> CreateUserChallenge([FromBody] Challenge challenge)
         {
             var createChallenge = await this._service.add(challenge);
+=======
+// using System;
+// using System.Collections.Generic;
+// using System.Linq;
+// using System.Threading.Tasks;
+// using Microsoft.AspNetCore.Mvc;
+// using CORE.Entities;
+// using CORE.Services;
+// using Microsoft.Extensions.Logging;
+
+// namespace INFRASTRUCTURE.APIControllers
+// {
+//     [ApiController]
+//     [Route("api/[controller]")]
+//     public class Challangecontroller : ControllerBase
+//     {
+//         private readonly ILogger<Challangecontroller> _logger;
+//         private readonly Challenge _challenge;
+//         private readonly User _user;
+
+//         public Challangecontroller(ILogger<Challangecontroller> logger, Challenge challenge, User user)
+//         {
+//             _logger = logger;
+//             _challenge = challenge;
+//             _user = user;
+//         }
+
+//         [HttpPost]
+//         public async Task<ActionResult<Challenge>> CreateUserChallenge([FromBody] Challenge challenge)
+//         {
+//             var createChallenge = await this._challenge.CreateChallenge(challenge);
+>>>>>>> b71e6091cb2d46c22cb600db07e5fb23b9966c9e
 
 //             if (createChallenge == null)
 //             {
@@ -40,19 +73,10 @@ namespace INFRASTRUCTURE.APIControllers
 //             return Ok();
 //         }
 
-<<<<<<< HEAD
-        [HttpPost]
-        [ProducesResponseType(statusCode: 200)]
-        [ProducesResponseType(statusCode: 400)]
-        public async Task<ActionResult<User>> UserChallenge([FromBody] User user)
-        {
-            var userChallenge = await this._service.add(user);
-=======
 //         [HttpPost]
 //         public async Task<ActionResult<User>> UserChallenge([FromBody] User user)
 //         {
 //             var userChallenge = await this.UserToUserChallenge(user);
->>>>>>> c184ea1badb9f36dc57bb3df762792f20faa703a
 
 //             if (userChallenge == null)
 //             {
@@ -62,35 +86,6 @@ namespace INFRASTRUCTURE.APIControllers
 //             return Ok();
 //         }
 
-<<<<<<< HEAD
-        [HttpGet]
-        [ProducesResponseType(statusCode: 200)]
-        [ProducesResponseType(statusCode: 400)]
-        public async Task<ActionResult<List<Challenge>>> GetAllChallanges()
-        {
-            var challangeList = await this._service.Get();
-            if (challangeList == null)
-            {
-                return BadRequest();
-            }
-            return Ok();
-        }
-
-        [HttpGet("{int:id}")]
-        [ProducesResponseType(statusCode: 200)]
-        [ProducesResponseType(statusCode: 404)]
-        public async Task<ActionResult<Challenge>> GetChallengeById(int id)
-        {
-            var result = await this._service.GetById(id);
-            if (result == null)
-            {
-                return NotFound();
-            }
-            return Ok();
-        }
-    }
-}
-=======
 //         [HttpGet]
 //         public async Task<ActionResult<List<Challenge>>> GetAllChallanges()
 //         {
@@ -114,4 +109,3 @@ namespace INFRASTRUCTURE.APIControllers
 //         }
 //     }
 // }
->>>>>>> c184ea1badb9f36dc57bb3df762792f20faa703a
