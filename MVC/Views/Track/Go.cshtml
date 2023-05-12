@@ -29,55 +29,55 @@
         ></iframe>
     </div>
 
-        @* <div id="map"></div>
-        <div id="directionsPanel"></div>
+    <script>
+    function sendPostRequest(latitude, longitude) {
+        var data = {
+            latitude: latitude,
+            longitude: longitude
+        };
 
-        <script>
-            function initMap() {
-                // Skapa en karta
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 12,
-                    center: { lat: @Model.latitude, lng: @Model.longitude } // Spårets koordinater
-                }); *@
-
-@* 
-                // Skapa en markör för spåret
-                var marker = new google.maps.Marker({
-                    position: { lat: @Model.latitude, lng: @Model.longitude },
-                    map: map,
-                    title: "@Model.track_name"
-                });
-
-                // Skapa en ruttvisningstjänst
-                var directionsService = new google.maps.DirectionsService();
-                var directionsRenderer = new google.maps.DirectionsRenderer({ suppressMarkers: true });
-                directionsRenderer.setMap(map);
-                directionsRenderer.setPanel(document.getElementById('directionsPanel'));
-
-                // Hämta användarens plats
-                if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(function (position) {
-                        var userLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-
-                        // Skapa en rutt från användarens plats till spåret
-                        var request = {
-                            origin: userLocation,
-                            destination: { lat: @Model.latitude, lng: @Model.longitude },
-                            travelMode: google.maps.TravelMode.WALKING
-                        };
-
-                        // Beräkna och visa ruttvägbeskrivning
-                        directionsService.route(request, function (result, status) {
-                            if (status == google.maps.DirectionsStatus.OK) {
-                                directionsRenderer.setDirections(result);
-                            }
-                        });
-                    });
-                }
+        fetch('/your-post-endpoint', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => {
+            if (response.ok) {
+                console.log('POST request successfully sent!');
+                // Hantera framgångsfall, exempelvis uppdatera användargränssnittet
+            } else {
+                console.log('Error sending POST request');
+                // Hantera fel, exempelvis visa felmeddelande
             }
-        </script>
+        })
+        .catch(error => {
+            console.log('Error sending POST request:', error);
+        });
+    }
 
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDVupq7kP99czQyiT7Tr6yH3syR2qZ6NaA&callback=initMap" async defer></script> *@
+    function checkUserLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                var latitude = position.coords.latitude;
+                var longitude = position.coords.longitude;
+
+                // Jämför med önskad latitude och longitude och skicka POST-förfrågan om matchning
+                if (latitude === desiredLatitude && longitude === desiredLongitude) {
+                    sendPostRequest(latitude, longitude);
+                }
+            });
+        } else {
+            console.log('Geolocation is not supported by this browser.');
+        }
+    }
+
+    // Kör funktionen när sidan laddas
+    checkUserLocation();
+</script>
+
+
 </main>
 
 <footer>
