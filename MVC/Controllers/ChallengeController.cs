@@ -14,6 +14,10 @@ public class ChallengeController : Controller
 
     public IActionResult Index(UserViewModel userViewModel)
     {
+        //test bara
+        userViewModel.AvailableChallenges = new List<CORE.Entities.Challenge>()
+        {new CORE.Entities.Challenge{challenge_name = "Kransmossen", challenge_level=1}};
+
         return View(userViewModel);
     }
 }

@@ -1,9 +1,7 @@
-@model List<CORE.Entities.Challenge> //gör viewmodels, typ userViewModel.AvailableChallenges
+@model MVC.Models.UserViewModel //gör viewmodels, typ userViewModel.AvailableChallenges
 @{
     ViewData["Title"] = "Utmaningar";
 }
-<<<<<<< HEAD
-=======
 
 <body>
     <header>
@@ -22,7 +20,7 @@
     <main>
         <h1>Upplåsta utmaningar i 7-härad</h1>
         <ul>
-            @foreach (var challenge in Model)
+            @foreach (var challenge in Model.AvailableChallenges)
             {
                 <li>
                     <p>Level: @challenge.challenge_level</p>
@@ -41,4 +39,3 @@
     </footer>
 
 </body>
->>>>>>> 1e0f6d5cae6917083fb6d6afcd2285a1726d72f0
